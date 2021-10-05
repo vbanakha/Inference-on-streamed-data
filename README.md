@@ -11,7 +11,7 @@ python3 server_detector_np_v1.py --mode=1 --publisher_addr="tcp://127.0.0.1:5555
 python3 client_AGX_np_v1.py --publisher_address="tcp://127.0.0.1:5555" --synchronize_subscriber --publisher_rep_address="tcp://127.0.0.1:5556"
 
 
-Average Inference time ~ 7 ms uisng synchronous execution
+Average Inference time ~ 7 ms using synchronous execution
 
 
 **Note**: git-lfs required for accessing the test data
