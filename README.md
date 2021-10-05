@@ -12,3 +12,6 @@ python3 client_AGX_np_v1.py --publisher_address="tcp://127.0.0.1:5555" --synchro
 
 
 Average Inference time ~ 10 ms 
+
+
+Note: git-lfs required for accessing the test data
