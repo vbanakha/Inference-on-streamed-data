@@ -194,7 +194,7 @@ def do_inference_v2(context, bindings, inputs, outputs, stream):
     # Run inference.
     time_in_GPU = time.time() - start_time
     time1= time.time()
-    context.execute_async_v2(bindings=bindings, stream_handle=stream.handle)
+    context.execute_v2(bindings=bindings)
     infer_time = time.time() - time1
     # Transfer predictions back from the GPU.
     time2 = time.time()
